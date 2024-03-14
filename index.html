@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contac Page</title>
+    <link rel="stylesheet" href="./src/style/output.css">
+</head>
+
+<body class="font-be_Vietnam_Pro p-8 bg-bg-image bg-cover text-[#F8FAFC] text-base"> 
+    <img height="30" width="100" src="./src/assets/contact-form-icon.svg" alt="contact-form-icon">
+
+    <div class="flex flex-col justify-center items-center">
+        
+        <h1 class="text-[2.5rem] lg:text-[3rem] xl:text-[4rem] text-center w-3/4 lg:w-2/4 leading-normal lg:leading-[4.5rem] m-5 font-bold">Interested in our business pricing?</h1>
+        <p class="text-base lg:text-[1.5rem] xl:text-[2rem] text-center lg:w-2/4 leading-snug">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+    
+
+        <div class="bg-white/25 p-8 w-full rounded-3xl my-14 xl:w-2/3">
+            <form action="#" class="flex flex-col gap-6 w-full">
+                <div class="flex flex-col lg:flex-row gap-6">
+                    <div class="flex flex-col w-full">
+                        <label class="text-sm" for="name">Name</label>
+                        <input class="text-black p-6 rounded-2xl" name="name" placeholder="Ethan Johnson" id="name" type="text">
+                    </div>
+                    <div class=" flex flex-col w-full">
+                        <label class="text-sm" for="email">Company Email</label>
+                        <input class="text-black p-6 rounded-2xl" type="email" placeholder="ethan@johnson.com" name="email" id="email">
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-6">
+
+                    <div class="flex flex-col w-full">
+                        <label class="text-sm" for="size">Company Size</label>
+                        <select class="text-black p-6 rounded-2xl" name="size" id="size">
+                            <option value="50-100">50-100 employees</option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-col w-full">
+                        <label class="text-sm" for="subject">Subject</label>
+                        <select class="text-black p-6 rounded-2xl" name="subject" id="subject">
+                            <option value="building landing pages">Building Landing pages</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+
+                    <label class="text-sm" for="message">Message</label>
+                    <textarea class="text-black p-6 rounded-2xl h-40" name="message" id="message" cols="30" rows="10">50-100 employees</textarea>
+                </div>
+
+                <input class="text-xl font-semibold bg-white p-6 rounded-2xl text-[#4036A9]" type="button" value="Contact Sales">
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
